@@ -1,31 +1,46 @@
 body{
-	background-color:#00BFFF
-
-       
+	background-image: url(../img/codigos.jpg);
+	background-repeat: round;
+	background-attachment: fixed;
     }
 
 h1,h2,p{
-
-          color:#000000;
-          font-family: "Times New Roman", Times, serif;
-          text-align: center;
-
+	    color:#fff;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+          
     }
 
 ul,li{
-
-          color:#000000;
-          font-family: "Times New Roman", Times, serif;
-          text-align: left;
-
+      color:#fff;
+      font-family: "Times New Roman", Times, serif;
+      text-align: left;
      }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 60%;
+
 }
+
+.container{
+	       width: 80%;
+	       margin-right:auto;
+	       margin-left: auto;
+
+}
+
+header,footer{
+	          background-color:	rgb(105,105,105,0.5);
+	          padding: 3%;
+	          
+
+
+
+}
+
 
 
 
