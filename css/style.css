@@ -1,28 +1,45 @@
 body{
 	background-image: url(../img/codigos.jpg);
-	background-repeat: round;
-	background-attachment: fixed;
-    }
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+}
+                    
+h1{
+	font-size: 2em;
+	font-family: 'Roboto Mono', monospace;
+}
 
-h1,h2,p{
+h2{
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titulos{
 	    color:#fff;
-        font-family: "Times New Roman", Times, serif;
         text-align: center;
-          
-    }
+        line-height: 1.5;   
+}
 
 ul,li{
       color:#fff;
-      font-family: "Times New Roman", Times, serif;
       text-align: left;
-     }
+      line-height: 1.5;
+      text-align: center; 
+      font-family: 'Roboto Mono', monospace;
+
+}
 
 img {
 	 display: block;
 	 margin-left: auto;
 	 margin-right: auto;
 	 width: 60%;
-
 }
 
 .container{
@@ -33,14 +50,52 @@ img {
 }
 
 header,footer{
-	          background-color:	rgb(105,105,105,0.5);
-	          padding: 3%;
+	         background-color: rgb(105,105,105,0.5);
+	         padding: 3%;
+	         font-family: 'Roboto Mono', monospace;
 	          
-
-
-
 }
 
+table{
+      border-collapse: collapse;
+      width: 80%;
+      color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Roboto Mono', monospace;
+}
 
+td,th{
+	border:5px groove #fff;
+	padding: 1%    
+}
+
+tr:nth-child(even) {
+  background-color: rgb(105,105,105,0.5);
+}
+
+a:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(105,105,105,0.5) ;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
