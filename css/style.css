@@ -98,4 +98,9 @@ a:active {
   text-decoration: underline;
 }
 
+td,th{
+ text-align: center;     
+
+}
+
 
