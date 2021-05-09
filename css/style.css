@@ -40,6 +40,23 @@ img {
 	 margin-left: auto;
 	 margin-right: auto;
 	 width: 60%;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 5px;
+  
+}
+.rodape{
+   text-shadow: 2px 2px 5px red;
+  color:#fff;
+  text-align: center;
+  line-height: 1.5;  
+
+}
+.cabeçalho{
+  text-shadow: 2px 2px 5px red;
+  color:#fff;
+  text-align: center;
+  line-height: 1.5;  
 }
 
 .container{
@@ -102,5 +119,23 @@ td,th{
  text-align: center;     
 
 }
+.button {
+  background-color: rgb(105,105,105,0.5) ;
+  border: groove;
+  color: rgb(105,105,105,0.5);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
+  
+
+
+}
+
 
 
