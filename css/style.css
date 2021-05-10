@@ -1,8 +1,8 @@
 body{
 	background-image: url(../img/codigos.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
                     
 h1{
@@ -35,16 +35,6 @@ ul,li{
 
 }
 
-img {
-	 display: block;
-	 margin-left: auto;
-	 margin-right: auto;
-	 width: 60%;
-   border: 1px solid #ddd;
-   border-radius: 4px;
-   padding: 5px;
-  
-}
 .rodape{
    text-shadow: 2px 2px 5px red;
   color:#fff;
@@ -119,23 +109,47 @@ td,th{
  text-align: center;     
 
 }
-.button {
-  background-color: rgb(105,105,105,0.5) ;
-  border: groove;
-  color: rgb(105,105,105,0.5);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-size: 2em;
-  font-family: 'Roboto Mono', monospace;
-  
 
+.git{
+
+  text-align: center;
+}
+
+  
+.git img{    
+    max-width: 150px;
+    transition: 0.2s;
 
 }
+
+.git img:hover{
+
+    transform: scale(1.10);
+    transition: 0.2s;
+  }
+
+  .imagens{
+    text-align: center;
+  }
+
+  .imagens img{
+     max-width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 0.2s;
+    box-shadow: 4px 4px 3px black;
+
+  }
+
+.imagens img:hover{
+
+     transform: scale(1.10);
+    transition: 0.2s;
+}
+
+
+
+
 
 
 
