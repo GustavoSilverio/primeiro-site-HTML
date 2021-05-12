@@ -1,66 +1,125 @@
-body{
-	background-image: url(../img/codigos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-                    
-h1{
-	font-size: 2em;
-	font-family: 'Roboto Mono', monospace;
+.git{
+     text-align: center;
 }
 
-h2{
-    font-size: 1.5em;
-    font-family: 'Roboto Mono', monospace;
+  
+.git img{    
+         max-width: 150px;
+         transition: 0.2s;
+
 }
 
-p{
-    font-size: 2em;
-    font-family: 'Roboto Mono', monospace;
+.git img:hover{
+               transform: scale(1.10);
+               transition: 0.2s;
+}
+
+  .imagens{
+           text-align: center;
+}
+
+  .imagens img{
+               max-width: 80%;
+               margin-top: 40px;
+               margin-bottom: 40px;
+               transition: 0.2s;
+               box-shadow: 4px 4px 3px black;
+}
+
+.imagens img:hover{
+                   transform: scale(1.10);
+                   transition: 0.2s;
 }
 
 .titulos{
-	    color:#fff;
-        text-align: center;
-        line-height: 1.5;   
+         color:#fff;
+         text-align: center;
+         line-height: 1.5;   
 }
 
-ul,li{
-      color:#fff;
-      text-align: left;
-      line-height: 1.5;
-      text-align: center; 
-      font-family: 'Roboto Mono', monospace;
-
+.cabeçalho{
+           text-shadow: 2px 2px 5px red;
+           color:#fff;
+           text-align: center;
+           line-height: 1.5;  
 }
 
 .rodape{
-   text-shadow: 2px 2px 5px red;
-  color:#fff;
-  text-align: center;
-  line-height: 1.5;  
-
+        text-shadow: 2px 2px 5px red;
+        color:#fff;
+        text-align: center;
+        line-height: 1.5;  
 }
-.cabeçalho{
-  text-shadow: 2px 2px 5px red;
-  color:#fff;
-  text-align: center;
-  line-height: 1.5;  
+
+.fixo{
+      position: fixed;
+      top:0;
+      right: 0;
+      left: 0;
+      z-index: 1030
+}
+
+.lista{
+      color:#fff;
+      text-align: left;
+      line-height: 1.5; 
+      font-family: 'Roboto Mono', monospace;
+}
+
+.lista-menu{
+            color:#fff;
+            text-align: left;
+            line-height: 1.5; 
+            font-family: 'Roboto Mono', monospace;
+}
+
+.lista-menu li: hover{
+
+  color:red
+}
+
+body{
+	   background-image: url(../img/codigos.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
 }
 
 .container{
-	       width: 80%;
-	       margin-right:auto;
-	       margin-left: auto;
+           margin-top: 30%;
+           width: 80%;
+           margin-right:auto;
+           margin-left: auto;
+           position: relative;
+}
 
+
+h1{
+	 font-size: 2em;
+	 font-family: 'Roboto Mono', monospace;
+}
+
+h2{
+   font-size: 1.5em;
+   font-family: 'Roboto Mono', monospace;
+}
+
+p{
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
 }
 
 header,footer{
-	         background-color: rgb(105,105,105,0.5);
-	         padding: 3%;
-	         font-family: 'Roboto Mono', monospace;
-	          
+	            background-color: rgb(105,105,105);
+	            padding: 1%;
+	            font-family: 'Roboto Mono', monospace;
+              position: fixed;
+              display: flex; 
+              flex-direction: column;
+              align-items: center;
+              font-size: 1.5em;
+              line-height: 1.5;  
+
 }
 
 table{
@@ -73,79 +132,46 @@ table{
 }
 
 td,th{
-	border:5px groove #fff;
-	padding: 1%    
+	    border:5px groove #fff;
+	    padding: 1%    
 }
 
 tr:nth-child(even) {
-  background-color: rgb(105,105,105,0.5);
+                    background-color: rgb(105,105,105,0.5);
 }
 
 a:link {
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
 }
 
 a:visited {
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
+           color: #fff;
+           background-color: transparent;
+           text-decoration: none;
 }
 
 a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+         color: red;
+         background-color: transparent;
+         text-decoration: underline;
 }
 
 a:active {
-  color: rgb(105,105,105,0.5) ;
-  background-color: transparent;
-  text-decoration: underline;
+          color: rgb(105,105,105,0.5) ;
+          background-color: transparent;
+          text-decoration: underline;
 }
 
 td,th{
- text-align: center;     
-
+      text-align: center;     
 }
 
-.git{
 
-  text-align: center;
-}
 
-  
-.git img{    
-    max-width: 150px;
-    transition: 0.2s;
 
-}
 
-.git img:hover{
-
-    transform: scale(1.10);
-    transition: 0.2s;
-  }
-
-  .imagens{
-    text-align: center;
-  }
-
-  .imagens img{
-     max-width: 80%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    transition: 0.2s;
-    box-shadow: 4px 4px 3px black;
-
-  }
-
-.imagens img:hover{
-
-     transform: scale(1.10);
-    transition: 0.2s;
-}
 
 
 

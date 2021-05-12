@@ -11,13 +11,25 @@
      <link rel="shortcut icon" href="img/favicom.png">
 </head>
 <body>
-     <header>
-          <nav>
-               <h1 class="cabeçalho">HTML e CSS</h1>
+     <header class="fixo">
+
+          <h1><img src="img/logo site.png" alt="logo HTML e CSS"> </h1>
+          <nav class="menu">
+
+            <ul class="lista-menu">
+              <li><a href="#html">HTML</a></li>
+              <li><a href="#css">CSS</a></li>
+              <li><a href="#javascript">Javascript</a></li>
+              <li><a href="#posicionamento">Posicionamento</a></li>
+              <li><a href="#github">Meu Github</a></li>
+            </ul>
+              
           </nav>          
      </header>
      <div class="container">
-          <div>
+          <div id="html">
+                <h1 class="cabeçalho">HTML e CSS</h1>
+
                 <h1 class="titulos">Introdução ao HTML</h1>
 
                  <h2 class="titulos">O que é HTML?</h2>
@@ -27,13 +39,14 @@
           
           
 
-                <ul>
+                <ul class="lista">
                     <li>HTML significa Hyper Text Markup Language</li>
                     <li>HTML é a linguagem de marcação padrão para a criação de páginas da web</li>
                     <li>HTML descreve a estrutura de uma página da web</li>
                     <li>HTML consiste em uma série de elementos</li>
                     <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
                     <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
+                    
                 </ul> 
 
                  <p class="titulos">caso queira descobrir mais sobre HTML clique <a href="https://www.w3schools.com/html/html_intro.asp"target="_blank">AQUI</a>.</p>
@@ -50,7 +63,7 @@
 
                  <p class="titulos">Evolução do HTML de 1990 até 2000</p>
           </div>
-          <div>                
+          <div id="css">                
                  <h1 class="titulos">Introdução ao CSS</h1>
 
                   <h2 class="titulos">Oque é CSS ?</h2> 
@@ -58,7 +71,7 @@
                  <p class="titulos">CSS é a linguagem que usamos para definir o estilo de uma página da web.</p> 
                  <br>
 
-                 <ul>
+                 <ul class="lista">
 
                   <li>CSS significa Cascading Style Sheets;</li>
                   <li>CSS descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra mídia;</li>
@@ -79,19 +92,36 @@
 
                  <p class="titulos">Evolução css</p>
 
+              <div id="javascript">
+
                  <p class="titulos">Clique <a href="javascript.html"target="_blank">AQUI</a>  para conhecer um pouco sobre Javascript!</p>
 
+              </div>
                  <br>
+              
+              <div id="posicionamento">
 
                  <p class="titulos">Clique <a href="posicionamento.html"target="_blank">AQUI</a>  para ver os posicioanamentos</p>
 
-                 <div class="git">
- 
-                <a href="https://github.com/GustavoSilverio/primeiro-site-HTML" target="_blank">
-                
-                <img src="img/githubimg.png" alt="link para o meu github">
+              </div>
 
-                </a>
+                 <br>
+
+              <div id="github">
+
+                 <p class="titulos">Clique no icone do gato para ir até meu github</p>
+
+              </div>   
+
+                 <br>
+
+                <div class="git">
+ 
+                   <a href="https://github.com/GustavoSilverio/primeiro-site-HTML" target="_blank">
+                  
+                   <img src="img/githubimg.png" alt="link para o meu github">
+
+                   </a>
 
                 </div>
           </div>                   
