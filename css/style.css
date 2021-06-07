@@ -183,7 +183,7 @@ td,th{
 }
 }
 /*tela maior que 768px*/
-@media only screen and (min-width: 768px){
+@media screen and (min-width: 768px){
                           .container{
                                      margin-top:15%; }
 
@@ -198,7 +198,7 @@ td,th{
                                  right: 5%;
                                  top: 45%;}
 
-                           .menu ul,li{
+                           .menu ul li{
                                        display: inline;
                                        margin-left: 10px;}
 
