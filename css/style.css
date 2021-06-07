@@ -165,40 +165,48 @@ td,th{
       font-family: 'Roboto Mono', monospace;
 }
 
-.menu li: hover{
+.menu li hover{
                       color:red
 }
 
-@media screen and (max-width: 599px){
+/*tela menor que 599px*/
+@media screen and (max-width:599px){
                           .container{
                                      margin-top:65%;                
 }
 }
 
-@media screen and (min-width: 600px){
+/*tela maior que 600px*/
+@media screen and (min-width:600px){
                           .container{
                                      margin-top:40%;                
 }
 }
-
+/*tela maior que 768px*/
 @media only screen and (min-width: 768px){
                           .container{
-                                     margin-top:13%; }
+                                     margin-top:15%; }
 
                               header{
                                      background-color: rgb(105,105,105,0.5);
                                      flex-direction: row;
-                                     position: relative;}
+                                     position: relative;
+                                     height: 100px;}
 
                            .menu{
                                  position: absolute;
                                  right: 5%;
-                                 top: 35%;}
+                                 top: 45%;}
 
                            .menu ul,li{
                                        display: inline;
-                                       margin-left: 10px;
-}      
+                                       margin-left: 10px;}
+
+                            .imglogo{
+                                  position: absolute;
+                                  top: 20px;
+                                  left: 5%;
+}
 }
 
 
