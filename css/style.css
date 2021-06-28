@@ -25,17 +25,16 @@ p{
   font-family: 'Roboto Mono', monospace;
 }
 
-header,footer{
-	            background-color: rgb(105,105,105);
-	            padding: 1%;
-	            font-family: 'Roboto Mono', monospace;
-              position: fixed;
-              display: flex; 
-              flex-direction: column;
-              align-items: center;
-              font-size: 1.5em;
-              line-height: 1.5;  
-
+header, footer{
+      background-color: rgba(65,105,225);
+      padding: 1%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5em;
+      font-weight: bolder;
+      
 }
 
 table{
@@ -87,7 +86,8 @@ td,th{
 .container{
            width: 80%;
            margin-right:auto;
-           margin-left: auto;   
+           margin-left: auto; 
+           position: relative;  
 }
 
 .git{
@@ -148,7 +148,7 @@ td,th{
       top:0;
       right: 0;
       left: 0;
-      z-index: 1030
+      z-index: 1030;
 }
 
 .lista{
@@ -169,46 +169,52 @@ td,th{
                       color:red
 }
 
-/*tela menor que 599px*/
-@media screen and (max-width:599px){
-                          .container{
-                                     margin-top:65%;                
-}
-}
-
-/*tela maior que 600px*/
+@media screen and (max-width: 599px){
+	.container{
+		margin-top:65%;			
+	}
+	}
+	/*tela maior que 600px */	
 @media screen and (min-width:600px){
-                          .container{
-                                     margin-top:40%;                
-}
-}
-/*tela maior que 768px*/
-@media screen and (min-width: 768px){
-                          .container{
-                                     margin-top:15%; }
+	.container{
+		margin-top:40%;				
+	}
+	}
 
-                              header{
-                                     background-color: rgb(105,105,105,0.5);
-                                     flex-direction: row;
-                                     position: relative;
-                                     height: 100px;}
+		/*telas maiores que 768px */
+@media screen and (min-width:768px) {
+		.container{
+		margin-top:15%;	}
 
-                           .menu{
-                                 position: absolute;
-                                 right: 5%;
-                                 top: 45%;}
+		header{
+			background-color: rgba(65,105,225);
+			flex-direction: row;
+			position: relative;
+			height: 100px;
+		}
 
-                           .menu ul li{
-                                       display: inline;
-                                       margin-left: 10px;}
+		.menu{
 
-                            .imglogo{
-                                  position: absolute;
-                                  top: 20px;
-                                  left: 5%;
-}
-}
+			position: absolute;
+			right: 5%;
+			top:45%;
+		}
 
+		.menu ul li{
+
+			display: inline;
+			margin-left: 10px; 
+		}
+
+		.imglogo{
+
+			position: absolute;
+			top:20px;
+			left: 5%;
+		}
+
+
+	}
 
 
 
