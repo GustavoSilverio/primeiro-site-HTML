@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport content=device-width initial-scale=1.0">
+   <title>Site_Teste_Guuh</title>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/reset.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="shortcut icon" href="img/favicom.png">
+</head>
+
+<body>
+   <header class="fixo">
+
+      <h1><a href="index.html"><img class="imglogo" src="img/logo site.png" alt="logo HTML e CSS"></a></h1>
+
+      <nav class="menu">
+
+         <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#javascript">Javascript</a></li>
+            <li><a href="posicionamento.html" target="_blank">Posicionamento</a></li>
+            <li><a href="https://github.com/GustavoSilverio/primeiro-site-HTML" target="_blank">Meu Github</a></li>
+            <li><a href="#contato">contato</a></li>
+         </ul>
+
+      </nav>
+   </header>
+   <div class="container">
+
+      <h1 class="cabeçalho">Formulário de contato</h1>
+      <div class="form">
+         <form>
+            <div class="distancia">
+               <input type="text" placeholder="Nome completo:">
+            </div>
+            <div class="distancia">
+               <input type="text" placeholder="Assunto:">
+            </div>
+            <div class="distancia">
+               <fieldset>
+                  <legend>Gênero</legend>
+                  <input type="radio" id="html" name="fav_language" value="HTML">
+                  <label for="html">Feminino</label><br>
+                  <input type="radio" id="css" name="fav_language" value="CSS">
+                  <label for="css">Masculino</label><br>
+                  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                  <label for="javascript">outro</label>
+               </fieldset>
+            </div>
+            <div class="distancia">
+               <fieldset>
+                  <legend>Gosto Musical</legend>
+                  <input type="checkbox" id="html" name="fav_language" value="HTML">
+                  <label for="html">rock</label><br>
+                  <input type="checkbox" id="css" name="fav_language" value="CSS">
+                  <label for="css">funk</label><br>
+                  <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+                  <label for="javascript">rap</label>
+               </fieldset>
+            </div>
+            <div class="distancia">
+               <label for="cars">Escolaridade:</label>
+               <select id="cars" name="cars">
+                  <option value="volvo">Fundamental</option>
+                  <option value="saab">ensino médio</option>
+                  <option value="fiat">Superior</option>
+                  <option value="audi">Especialização</option>
+               </select>
+            </div>
+            <div>
+               <textarea placeholder="Sugestões ou duvidas:" style="width: 100%; height: 300px;"></textarea>
+            </div>
+            <div class="distancia">
+               <input type="submit" value="Enviar">
+            </div>
+
+
+
+
+         </form>
+      </div>
+   </div>
+
+   <footer>
+      <h1 class="rodape">Rodapé</h1>
+   </footer>
+</body>

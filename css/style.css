@@ -13,9 +13,10 @@ html{
 h1{
 	 font-size: 2em;
 	 font-family: 'Roboto Mono', monospace;
+       text-align: center;
 }
 
-h2{
+h2, h3{
    font-size: 1.5em;
    font-family: 'Roboto Mono', monospace;
 }
@@ -25,17 +26,16 @@ p{
   font-family: 'Roboto Mono', monospace;
 }
 
-header, footer{
-      background-color: rgba(65,105,225);
+header,footer{ 
+      background: rgba(28,28,28);
       padding: 1%;
       position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-size: 1.5em;
-      font-weight: bolder;
-      
-}
+      font-size: 1.2em;
+      line-height: 1.5em;
+  }
 
 table{
       border-collapse: collapse;
@@ -49,6 +49,11 @@ table{
 td,th{
 	    border:5px groove #fff;
 	    padding: 1%    
+}
+
+textarea{
+
+      background-color: #5e5e5e;
 }
 
 tr:nth-child(even) {
@@ -99,6 +104,21 @@ td,th{
          max-width: 150px;
          transition: 0.2s;
 
+}
+
+.lorem{
+
+      font-size: 1.5em;
+      font-family: 'Roboto Mono', monospace; 
+      color: #fff;
+}
+
+.loremh3{
+      
+      font-size: 2.0em;
+      font-family: 'Roboto Mono', monospace; 
+      color: #fff;
+      text-decoration: underline ;
 }
 
 .git img:hover{
@@ -169,58 +189,170 @@ td,th{
                       color:red
 }
 
+.form  {
+      font-family: 'Roboto Mono', monospace;
+      background-color:#4F4F4F;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3%;
+      font-size: 1.2em;
+     
+
+}
+
+.tituloform{
+      font-family: 'Roboto Mono', monospace;
+      text-align: center;
+
+}
+
+.distancia {
+      
+      margin-top: 2%;
+      margin-bottom: 2%;
+      color: #fff;
+
+}
+
+#sobre{
+
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#sobre h1, h3, p {
+
+      width: 100%;
+      text-align: center;
+
+}
+
+#sobre .sobre{
+
+width: 25%;
+text-align: center;
+
+}
+
+#galeria {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+ 
+   
+
+}
+
+#galeria .galeria {
+
+    text-align: center;
+ 
+
+}
+
+.imggaleria{
+
+      width: 80% ;
+}
+
+.imgsobre{
+
+      width: 20%;
+      height: 20%;
+
+}
+
+
+input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #5e5e5e;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #5e5e5e;
+
+    }
+
+    fieldset{
+
+      width: 95.5%;
+      border: 2px solid #ccc ;
+      padding: 2%;
+      border-radius: 4px; 
+    }
+    
+
+/*tela menor que 599px*/
 @media screen and (max-width: 599px){
-	.container{
-		margin-top:65%;			
-	}
-	}
-	/*tela maior que 600px */	
+      .container{
+          width: 90%;
+          margin-top: 45%;
+}               
+}
+
+
+/*tela maior que 600px*/
 @media screen and (min-width:600px){
-	.container{
-		margin-top:40%;				
-	}
-	}
+                         .container{
+                                     margin-top:40%;                
+}
+}
+/*tela maior que 768px*/
+@media screen and (min-width: 768px){
+                          .container{
+                                     margin-top:15%; }
 
-		/*telas maiores que 768px */
-@media screen and (min-width:768px) {
-		.container{
-		margin-top:15%;	}
+                              header{
+                                     background-color: rgb(105,105,105,0.5);
+                                     flex-direction: row;
+                                     position: relative;
+                                     height: 100px;}
 
-		header{
-			background-color: rgba(65,105,225);
-			flex-direction: row;
-			position: relative;
-			height: 100px;
-		}
+                               .menu{
+                                    position: absolute;
+                                    right: 5%;
+                                    top: 37%;}
 
-		.menu{
+                         .menu ul li{
+                                    display: inline;
+                                    margin-left: 10px,}
 
-			position: absolute;
-			right: 5%;
-			top:45%;
-		}
+                            .imglogo{
+                                    position: absolute;
+                                    top: 20px;
+                                    left: 5%;}
+                          #sobre, #galeria  {  
+                                flex-direction: row;
+                                flex-wrap: wrap;}
+                                
+                           #sobre h1, h3, p {
 
-		.menu ul li{
-
-			display: inline;
-			margin-left: 10px; 
-		}
-
-		.imglogo{
-
-			position: absolute;
-			top:20px;
-			left: 5%;
-		}
-
-
-	}
-
-
+                                width: 80%;
+                                text-align: center;}
+                           #sobre .sobre, #galeria .galeria{
+                             
+                                 text-align: center;
 
 
-
-
-
-
-
+                           }
+                                       
+}
